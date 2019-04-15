@@ -1,4 +1,4 @@
-# Node Skeleton
+# MapBook
 
 ## Project Setup
 
