@@ -1,29 +1,61 @@
-# MapBook
+# mapbook
+Midterm project for Lighthouse Labs Web Development Bootcamp
+Main Contributors: [Hao Jiang](https://github.com/HaoJiang0201), [Estella Song](https://github.com/estellajaysong), [Bonita Choi](https://github.com/bonitac)
 
-## Project Setup
+## Overview
+For our Midterm Project, we created an app called mapbook that allows users to create a map with markers by inputing an address or location name to create a marker. The location's name, description, photo may be editted as desired. Users can add or remove locations from their own maps. Anyone may view all maps that have been created, but may only "like" a map once logged in. One may not like their own map.
 
-1. Create your own empty repo on GitHub
-2. Clone this repository (do not fork)
-  - Suggestion: When cloning, specify a different folder name that is relevant to your project
-3. Remove the git remote: `git remote rm origin`
-4. Add a remote for your origin: `git remote add origin <your github repo URL>`
-5. Push to the new origin: `git push -u origin master`
-6. Verify that the skeleton code now shows up in your repo on GitHub
+## Screenshots of the Final Product
+All users may view maps, but one may not create a map if not logged in.
+
+![Trying to Create Map Without Logging In](https://github.com/bonitac/mapbook/blob/master/docs/create_map_not_logged_in.png)
+
+Screenshot of "Favourite Maps"
+![Screenshot of "Favourite Maps"](https://github.com/bonitac/mapbook/blob/master/docs/show_favourite_maps.png)
+
+Screenshot of "Contributed Maps"
+![Screenshot of "Contributed Maps"](https://github.com/bonitac/mapbook/blob/master/docs/show_contributed_maps.png)
+
+A user may not like a map that they have created.
+![Gif of Liking Maps](https://github.com/bonitac/mapbook/blob/master/docs/2019-04-23%2014.39.00.gif)
+
+A screenshot of a map with many points with a specific point clicked
+![Screenshot of map with many points with a specific point clicked](https://github.com/bonitac/mapbook/blob/master/docs/map_with_many_points_and_info_window.png)
+
+Gif of Creating a map once logged in
+![Gif of Creating a map once logged in]()
+
+Gif of editting a point
+![Gif of editting a point]()
+
+Gif of removing a point
+![Gif of removing a point]()
+
 
 ## Getting Started
-
-1. Create the `.env` by using `.env.example` as a reference: `cp .env.example .env`
-2. Update the .env file with your correct local information
-3. Install dependencies: `npm i`
-4. Fix to binaries for sass: `npm rebuild node-sass`
-5. Run migrations: `npm run knex migrate:latest`
+1. Fork this repository.
+2. Install dependencies using `npm install` command.
+3. Run migrations: `npm run knex migrate:latest`
   - Check the migrations folder to see what gets created in the DB
-6. Run the seed: `npm run knex seed:run`
+4. Run the seed: `npm run knex seed:run`
   - Check the seeds file to see what gets seeded in the DB
-7. Run the server: `npm run local`
-8. Visit `http://localhost:8080/`
+5. Run the server: `npm run local`
+6. Visit `http://localhost:8080/maps`
+
+## App usage
+- Currently, this app has 3 users in the database, without the ability to register a new user
+- Once Logged in as a visitor, you may create and like maps as you wish!
 
 ## Dependencies
 
 - Node 5.10.x or above
 - NPM 3.8.x or above
+- Body-parser
+- Dotenv
+- EJS
+- JQuery
+- Knex
+- Knex-Logger
+- PostgreSQL
+- Sass
+- Morgan
