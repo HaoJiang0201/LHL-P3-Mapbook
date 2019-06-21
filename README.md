@@ -6,30 +6,8 @@ Main Contributors: [Hao Jiang](https://github.com/HaoJiang0201), [Estella Song](
 For our Midterm Project, we created an app called mapbook that allows users to create a map with markers by inputing an address or location name to create a marker. The location's name, description, photo may be editted as desired. Users can add or remove locations from their own maps. Anyone may view all maps that have been created, but may only "like" a map once logged in. One may not like their own map.
 
 ## Screenshots of the Final Product
-All users may view maps, but one may not create a map if not logged in.
+![Map Book](https://github.com/HaoJiang0201/LHL-P3-Mapbook/blob/master/docs/Map%20Book.jpg?raw=true)
 
-![Trying to Create Map Without Logging In](https://github.com/bonitac/mapbook/blob/master/docs/create_map_not_logged_in.png)
-
-Screenshot of "Favourite Maps"
-![Screenshot of "Favourite Maps"](https://github.com/bonitac/mapbook/blob/master/docs/show_favourite_maps.png)
-
-Screenshot of "Contributed Maps"
-![Screenshot of "Contributed Maps"](https://github.com/bonitac/mapbook/blob/master/docs/show_contributed_maps.png)
-
-A user may not like a map that they have created.
-![Gif of Liking Maps](https://github.com/bonitac/mapbook/blob/master/docs/2019-04-23%2014.39.00.gif)
-
-A screenshot of a map with many points with a specific point clicked
-![Screenshot of map with many points with a specific point clicked](https://github.com/bonitac/mapbook/blob/master/docs/map_with_many_points_and_info_window.png)
-
-Gif of Creating a map once logged in
-![Gif of Creating a map once logged in]()
-
-Gif of editting a point
-![Gif of editting a point]()
-
-Gif of removing a point
-![Gif of removing a point]()
 
 
 ## Getting Started
